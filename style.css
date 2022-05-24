@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#flexbox1 {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+#flexbox1 > div{
+    width: 200px;
+    height: 160px;
+    margin: 30px;
+    padding: 0px;
+    border-radius: 10%;
+    background-color:rgb(65, 173, 236);
+    color: black;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 5px 5px 5px lightblue ;
+
+}
+#flexbox1 > div > img {
+    position: relative;
+    width: 200px;
+    height: 140px;
+   
+}
+#flexbox1 > div > div {
+    
+    width: 200px;
+    height: 25px;
+    background-color:wheat;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    
+}
+
+#flexbox1 > div:hover {
+    opacity: 80%;
+}
